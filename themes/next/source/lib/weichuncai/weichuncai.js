@@ -8,8 +8,8 @@ smjq(document).ready(function() {
         var width = getwidth;
         var height = getheight;
     } else {
-        var width = document.documentElement.clientWidth - 200 - imagewidth;
-        var height = document.documentElement.clientHeight - 180 - imageheight;
+        var width = document.documentElement.clientWidth - 100 - imagewidth;
+        var height = document.documentElement.clientHeight - 80 - imageheight;
     }
     if (!window.localStorage.getItem("historylifetime")) {
         window.localStorage.setItem("historylifetime", new Date().getTime());
@@ -87,8 +87,8 @@ smjq(document).ready(function() {
             }
         }
     };
-    smcc.ontouchstart  = function() {
-        var ent = getEvent();
+    smcc.ontouchstart  = function(e) {
+        var ent = e.touches[0];
         moveable = true;
         moveX = ent.clientX;
         moveY = ent.clientY;
@@ -98,9 +98,10 @@ smjq(document).ready(function() {
         if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
             window.getSelection().removeAllRanges();
         }
-        document.ontouchmove = function() {
+        document.ontouchmove = function(e) {
+            e.preventDefault();
+            var ent = e.touches[0];
             if (moveable) {
-                var ent = getEvent();
                 var x = moveLeft + ent.clientX - moveX;
                 var y = moveTop + ent.clientY - moveY;
                 var w = 200;
@@ -109,7 +110,7 @@ smjq(document).ready(function() {
                 obj.style.top = y + "px";
             }
         };
-        document.ontouchend = function() {
+        document.ontouchend = function(ent) {
             if (moveable) {
                 var historywidth = obj.style.left;
                 var historyheight = obj.style.top;
