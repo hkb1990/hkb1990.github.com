@@ -26,6 +26,8 @@ smjq(document).ready(function() {
     var docMouseMoveEvent = document.onmousemove;
     var docMouseUpEvent = document.onmouseup;
 
+    var docTouchMoveEvent = document.ontouchmove;
+    var docTouchUpEvent = document.ontouchend;
     smjq("body").append('<div id="smchuncai" onfocus="this.blur();" style="color:#626262;z-index:999;"><div id="chuncaiface"></div><div id="dialog_chat"><div id="chat_top"></div><div id="dialog_chat_contents"><div id="dialog_chat_loading"></div><div id="tempsaying"></div><div id="showchuncaimenu"><ul class="wcc_mlist" id="shownotice">显示公告</ul><ul class="wcc_mlist" id="chatTochuncai">聊&nbsp;&nbsp;天</ul><ul class="wcc_mlist" id="foods">吃 零 食</ul><ul class="wcc_mlist" id="blogmanage">博客后台</ul><ul class="wcc_mlist" id="lifetimechuncai">生存时间</ul><ul class="wcc_mlist" id="closechuncai">关闭春菜</ul></div><div><ul id="chuncaisaying"></ul></div><div id="getmenu"> </div></div><div id="chat_bottom"></div></div></div>');
     smjq("#smchuncai").append('<div id="addinput"><div id="inp_l"><input id="talk" type="text" name="mastersay" value="" /> <input id="talkto" type="button" value=" " /></div><div id="inp_r">X</div></div>');
     smjq("body").append('<div id="callchuncai">召唤春菜</div>');
@@ -77,6 +79,46 @@ smjq(document).ready(function() {
                 window.localStorage.setItem("historyheight", historyheight);
                 document.onmousemove = docMouseMoveEvent;
                 document.onmouseup = docMouseUpEvent;
+                moveable = false;
+                moveX = 0;
+                moveY = 0;
+                moveTop = 0;
+                moveLeft = 0;
+            }
+        }
+    };
+    smcc.ontouchstart  = function() {
+        var ent = getEvent();
+        moveable = true;
+        moveX = ent.clientX;
+        moveY = ent.clientY;
+        var obj = document.getElementById("smchuncai");
+        moveTop = parseInt(obj.style.top);
+        moveLeft = parseInt(obj.style.left);
+        if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
+            window.getSelection().removeAllRanges();
+        }
+        document.ontouchmove = function() {
+            if (moveable) {
+                var ent = getEvent();
+                var x = moveLeft + ent.clientX - moveX;
+                var y = moveTop + ent.clientY - moveY;
+                var w = 200;
+                var h = 200; //w,h为浮层宽高
+                obj.style.left = x + "px";
+                obj.style.top = y + "px";
+            }
+        };
+        document.ontouchend = function() {
+            if (moveable) {
+                var historywidth = obj.style.left;
+                var historyheight = obj.style.top;
+                historywidth = historywidth.replace('px', '');
+                historyheight = historyheight.replace('px', '');
+                window.localStorage.setItem("historywidth", historywidth);
+                window.localStorage.setItem("historyheight", historyheight);
+                document.ontouchmove = docTouchMoveEvent;
+                document.ontouchend = docTouchUpEvent;
                 moveable = false;
                 moveX = 0;
                 moveY = 0;
