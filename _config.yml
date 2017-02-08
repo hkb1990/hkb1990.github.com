@@ -71,3 +71,7 @@ avatar: /images/avatar.jpeg
 deploy:
   type: git
   repo: git@github.com:hkb1990/hkb1990.github.com.git
+  branch: master
+
+marked:
+  gfm: true

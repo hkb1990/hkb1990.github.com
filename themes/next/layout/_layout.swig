@@ -73,5 +73,13 @@
   {% include '_scripts/baidu-push.swig' %}
   {% include '_components/algolia-search/assets.swig' %}
 
+  {% if theme.weichuncai %}
+<script>
+var imagewidth = "85";
+var imageheight = "152";
+createFace("/images/rakutori/face1.gif", "/images/rakutori/face2.gif", "/images/rakutori/face3.gif");
+</script>
+  {% endif %}
+
 </body>
 </html>

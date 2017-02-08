@@ -19,6 +19,9 @@
 {% if theme.canvas_nest %}
   {% set js_vendors.canvas_nest  = 'canvas-nest/canvas-nest.min.js' %}
 {% endif %}
+{% if theme.weichuncai %}
+  {% set js_vendors.weichuncai  = 'weichuncai/weichuncai.js' %}
+{% endif %}
 
 {% for name, internal in js_vendors %}
   {% set internal_script = url_for(theme.vendors._internal) + '/' + internal %}

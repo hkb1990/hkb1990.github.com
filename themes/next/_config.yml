@@ -71,8 +71,8 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-scheme: Mist
-#scheme: Pisces
+#scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -441,6 +441,9 @@ fancybox: true
 
 # Canvas-nest
 canvas_nest: false
+
+# weichuncai
+weichuncai: true
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.

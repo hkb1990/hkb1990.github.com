@@ -46,6 +46,10 @@
 
 <link href="{{ url_for(theme.css) }}/main.css?v={{ theme.version }}" rel="stylesheet" type="text/css" />
 
+{% if theme.weichuncai %}
+    <link href="{{ url_for(theme.css) }}/weichuncai.css?v={{ theme.version }}" rel="stylesheet" type="text/css" />
+{% endif %}
+
 {% if page.keywords %}
   <meta name="keywords" content="{{ page.keywords }}" />
 {% elif page.tags and page.tags.length %}
