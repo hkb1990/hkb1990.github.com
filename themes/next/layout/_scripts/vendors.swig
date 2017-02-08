@@ -20,7 +20,7 @@
   {% set js_vendors.canvas_nest  = 'canvas-nest/canvas-nest.min.js' %}
 {% endif %}
 {% if theme.weichuncai %}
-  {% set js_vendors.weichuncai  = 'weichuncai/weichuncai.js' %}
+  {% set js_vendors.weichuncai  = 'weichuncai/weichuncai.js?v=1.0.1' %}
 {% endif %}
 
 {% for name, internal in js_vendors %}
