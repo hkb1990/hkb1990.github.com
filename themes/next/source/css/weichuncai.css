@@ -39,8 +39,8 @@
   margin: 1px 0px 0px 0px;
   padding: 0px 0px 0px 5px;
   float: left;
-  width: 100%;line-height: 16px;
-
+  width: 100%;
+  line-height: 16px;
   cursor: pointer;
   overflow: hidden;
 }
@@ -87,7 +87,7 @@
 #dialog_chat_loading {
   width: 200px;
   height: 30px;
-  background: url("../images/loading.gif") no-repeat center center;
+  background: url("/images/loading.gif") no-repeat center center;
   display: none;
 }
 
@@ -96,7 +96,7 @@
   width: 200px;
   height: 5px;
   overflow: hidden;
-  background: url("../images/chat_top.gif") no-repeat;
+  background: url("/images/chat_top.gif") no-repeat;
 }
 
 #dialog_chat_contents,
@@ -128,7 +128,7 @@
   width: 200px;
   height: 10px;
   float: left;
-  background: url("../images/chat_bottom.gif") no-repeat;
+  background: url("/images/chat_bottom.gif") no-repeat;
 }
 
 #chat_top,
@@ -145,7 +145,7 @@
   margin: 0;
   padding: 0;
   cursor: pointer;
-  background: url("../images/menu.jpg") no-repeat top right;
+  background: url("/images/menu.jpg") no-repeat top right;
 }
 
 #addinput {
@@ -173,7 +173,7 @@
   height: 20px;
   font-size: 12px;
   text-align: left;
-  line-height:18px;
+  line-height: 18px;
   cursor: pointer;
 }
 
@@ -189,6 +189,6 @@
   border: none;
   width: 30px;
   height: 16px;
-  background: url("../images/ok.jpg");
+  background: url("/images/ok.jpg");
   cursor: pointer;
 }
