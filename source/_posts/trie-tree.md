@@ -2,7 +2,7 @@
 title: 字典树的Go语言实现
 date: 2017-02-23 16:07:42
 categories: 工具
-tags: [Go, 工具]
+tags: [Go, 工具, 敏感词]
 ---
 
 刚学Go语言练手,用于敏感词匹配
