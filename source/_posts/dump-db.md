@@ -5,6 +5,7 @@ categories: 小工具
 tags: [小工具, Bash]
 ---
 刚学bash练手, 用来备份指定表
+
 -h 数据库ip
 -u 用户名
 -p 密码
@@ -12,6 +13,8 @@ tags: [小工具, Bash]
 -P 端口
 -f 匹配表前缀
 -o 输出目录
+
+数据库为mysql
 
 <!-- more -->
 
