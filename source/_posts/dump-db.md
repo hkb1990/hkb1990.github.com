@@ -1,8 +1,8 @@
 ---
 title: Bash导出指定表
 date: 2017-02-23 15:48:43
-categories: 小工具
-tags: [小工具, Bash]
+categories: 工具
+tags: [工具, Bash]
 ---
 刚学bash练手, 用来备份指定表
 
