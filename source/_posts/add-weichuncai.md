@@ -20,7 +20,7 @@ tags: [伪春菜, 分享]
 > css/style.css : 样式，有些需要调整
 > js/common.js : 核心程序
 
-## 开始帮运
+## 开始搬运
 
 * 进入next主题的source文件夹下
 * 复制`imgs`文件夹下的图片到`images`目录下
