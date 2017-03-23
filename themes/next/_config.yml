@@ -282,11 +282,11 @@ baidu_analytics: 2d278baf7586f927bd1425084cbaed24
 #hypercomments_id:
 
 # Gentie productKey
-#gentie_productKey: c4153bd1b51d466b96f52008d6403cf3
+gentie_productKey: c4153bd1b51d466b96f52008d6403cf3
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-youyan_uid: 2128273
+#youyan_uid: 2128273
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
