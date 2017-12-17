@@ -213,19 +213,18 @@ function eatfood(obj) {
     if (new Date().getTime() - eatstatus.time > 8 * 3600 * 1000) {
         gettimes = 0;
     }
-    console.log(gettimes);
     if (parseInt(gettimes) > parseInt(9)) {
-        chuncaiSay("主人是个大混蛋！！");
+        chuncaiSay("你是个大混蛋！！我都告诉你密令是：'HKB真帅'，还一直让我吃吃吃，我正减肥呢，再见！！！");
         setFace(3);
         closechuncai_evil();
     } else if (parseInt(gettimes) > parseInt(7)) {
-        chuncaiSay(".....................肚子要炸了，死也不要再吃了～～！！！TAT");
+        chuncaiSay("............肚子要炸了，死也不要再吃了～～！！！TAT 我们聊会天吧，主人超自恋的，你输入：'HKB真帅'，也许会给你礼物。");
         setFace(3);
     } else if (parseInt(gettimes) == parseInt(5)) {
         chuncaiSay("我已经吃饱了，不要再吃啦......");
         setFace(3);
     } else if (parseInt(gettimes) == parseInt(3)) {
-        chuncaiSay("多谢款待，我吃饱啦～～～ ╰（￣▽￣）╭");
+        chuncaiSay("多谢款待，我吃饱啦～～～去玩咯～～～╰（￣▽￣）╭");
         setFace(2);
     } else {
         var id = obj.replace("f", '');
@@ -341,11 +340,11 @@ function setFace(num) {
 function getdata(el, id) {
     smjq("#tempsaying").css('display', "none");
     var dat = {
-        notice: '主人很懒啥都没写呢，这是您第一次使用伪春菜吧',
+        notice: '欢迎光临，更多功能请点击右下的|menu|',
         'adminname': '',
         'isnotice': '',
-        'ques': ['早上好', '中午好', '下午好', '晚上好', '晚安'],
-        'ans': ['早上好～', '中午好～', '下午好～', '晚上好～', '晚安～'],
+        'ques': ['你好', '早上好', '中午好', '下午好', '晚上好', '晚安', '圣诞快乐', 'hkb真帅', 'HKB真帅'],
+        'ans': ['你好，有什么事吗？找主人的话，他不在。估计又相亲去了，记不清这是第几回了...', '早上好～', '中午好～', '下午好～', '晚上好～', '晚安～', '圣诞快乐！我家主人不在，也没有给你准备礼物（我都好久没吃零食了，肚子空空，才不把礼物给你呢(￣^￣) ！）', '谢谢夸奖，这有份648礼包送给你', '谢谢夸奖，这有份648礼包送给你'],
         'lifetime': {
             'rakutori': 1,
             'neko': 2,
@@ -353,8 +352,8 @@ function getdata(el, id) {
         },
         'ccs': ['rakutori', 'neko', 'chinese_moe'],
         'defaultccs': 'rakutori',
-        'foods': ['金坷垃', '咸梅干'],
-        'eatsay': ['吃了金坷垃，一刀能秒一万八～！', '吃咸梅干，变超人！哦耶～～～'],
+        'foods': ['金坷垃', '咸梅干', '棒冰'],
+        'eatsay': ['吃了金坷垃，一刀能秒一万八～！', '(๑´ڡ`๑)吃咸梅干，变超人！哦耶～～～', '呵呵，谢谢，这大冬天的(;¬_¬) '],
     }
     if (el == 'defaultccs') {
         chuncaiSay(dat.defaultccs);
@@ -371,6 +370,15 @@ function getdata(el, id) {
         chuncaiSay(s);
     } else if (el == 'talking') {
         var talkcon = smjq("#talk").val();
+        if(talkcon == '圣诞快乐' || talkcon == 'hkb真帅' || talkcon == 'HKB真帅') {
+            var now = new Date();
+            if(now.getMonth() != 11 || now.getDate() != 25) {
+                chuncaiSay('圣诞还没到时候呢，谢谢你的祝福～');
+                setFace(3);
+                clearInput();
+                return;
+            }
+        } 
         var i = in_array(talkcon, dat.ques);
         var types = typeof(i);
         if (types != 'boolean') {
@@ -441,11 +449,13 @@ var talkself = 60;
 var talkobj;
 var tsi = 0;
 var talkself_arr = [
-    ["白日依山尽，黄河入海流，欲穷千里目，更上.....一层楼？", "1"],
+    ["主人最近沉迷《不思议迷宫》，肝已经肝成干了...", "1"],
+    ["主人沉迷游戏无法自拔，连女朋友都不找了，别说更新网站了 (￣ε￣)", "3"],
+    ["据说和我互动会发现神秘的大礼哦，会是什么呢？๑乛◡乛๑", "1"],
     ["我看见主人熊猫眼又加重了！", "3"],
-    ["我是不是很厉害呀～～？", "2"],
-    ["5555...昨天有个小孩子跟我抢棒棒糖吃.....", "3"],
-    ["昨天我好像看见主人又在众人之前卖萌了哦～", "2"]
+    ["圣诞元旦新年天天快乐！！！", "2"],
+    ["5555好冷清啊，都没什么人来 T—T ", "3"],
+    ["圣诞节，元旦节快到了，会不会有新的衣服呢？比如圣诞套装，元旦套装...", "2"]
 ];
 
 function talkSelf(talktime) {
