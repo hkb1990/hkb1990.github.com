@@ -4,8 +4,8 @@
 
 # Site
 title: 寂静欢喜
-subtitle: 最近又蛋疼了~
-description: 你请客, 我来付钱!
+subtitle: 🇭​ 🇰 🇧❤🇿 🇾 🇯​ 🇫 🇴 🇷 🇪 🇻 🇪 🇷
+description: 爱老婆，爱宝宝~
 author: HKB
 language: zh-Hans
 timezone:
@@ -52,7 +52,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: YYYY-MM-DD HH:mm:ss
 time_format: HH:mm:ss
 
 # Pagination
