@@ -4,7 +4,7 @@ date: 2017-02-09 20:18:23
 categories: 分享
 tags: [伪春菜, 分享]
 ---
-在浏览别人的博客的时候偶然间看到[伪春菜](http://baike.baidu.com/item/%E4%BC%AA%E6%98%A5%E8%8F%9C)，![](/images/screenshots/screen-shot-weichuncai .png)萌萌的一只，还可以调戏，正好想要搭建自己的个人主页，于是就决定也要去捉一只。然后在[最新通用版伪春菜下载](http://www.lmyoaoa.com/inn/archives/4504/)找到了网页版的。但是这个是Word Press的插件，而且需要配置后台。我既然选了用Github Page搭建个人主页，那么就只能自己动手修改，弄个静态页面的伪春菜，虽然功能上可能会差点，但后期可以慢慢完善。
+在浏览别人的博客的时候偶然间看到[伪春菜](http://baike.baidu.com/item/%E4%BC%AA%E6%98%A5%E8%8F%9C)，![](/images/screenshots/screen-shot-weichuncai.png)萌萌的一只，还可以调戏，正好想要搭建自己的个人主页，于是就决定也要去捉一只。然后在[最新通用版伪春菜下载](http://www.lmyoaoa.com/inn/archives/4504/)找到了网页版的。但是这个是Word Press的插件，而且需要配置后台。我既然选了用Github Page搭建个人主页，那么就只能自己动手修改，弄个静态页面的伪春菜，虽然功能上可能会差点，但后期可以慢慢完善。
 
 <!-- more -->
 

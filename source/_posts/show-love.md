@@ -12,17 +12,17 @@ tags: [秀恩爱, 表白]
 
 {% raw %}
 <style type="text/css">
-.digit{font-family:"Times New Roman";font-size:30px}
-#words{font-family:"sans-serif";font-size:20px;color:#666}"
+.digit{font-family:"Times New Roman";font-size:28px}
+#words{font-family:"sans-serif";font-size:18px;color:#666}"
 </style>
-<script type="text/javascript" src="/js/src/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="/js/src/garden.js"></script>
-<script type="text/javascript" src="/js/src/lovefunc.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/js/garden.js"></script>
+<script type="text/javascript" src="/js/lovefunc.js"></script>
 <div id="loveHeart" style="position:relative">
 	<canvas id="garden" width="670" height="625" style="margin-left:-20px"></canvas>
 	<div id="words" style="position:absolute;margin-top:226.5px;width:100%;text-align:center;top:0;">
 		<div id="messages" style="display:none;">
-		亲爱的，这是我们相遇后的时间：
+		亲爱的老婆<br/>这是我们相遇后的时间：
 			<div id="elapseClock"><span class="digit">2376</span> 天 <span class="digit">03</span> 时 <span class="digit">55</span> 分 <span class="digit">59</span> 秒
 			</div>
 		</div>
@@ -49,7 +49,8 @@ tags: [秀恩爱, 表白]
 	<span>我的余生，只陪着你！</span>
 	<br/>
 	<br/>
-	<span>最后给我亲爱的老婆献上玫瑰花~~</span>
+	<span>今天是结婚一周年纪念日，</span>
+	<span>给我亲爱的老婆献上玫瑰花~~</span>
 	<br/>
 </div>
 <script type="text/javascript">
@@ -64,6 +65,7 @@ together.setHours(12);
 together.setMinutes(0);
 together.setSeconds(0);
 together.setMilliseconds(0);
+together.setLo
 var marry = new Date();
 marry.setFullYear(2018, 8, 30);
 marry.setHours(10);
