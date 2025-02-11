@@ -2,13 +2,13 @@ var smjq = jQuery;
 var _typei = 0;
 var weichuncai_text = '';
 smjq(document).ready(function() {
-  
+
   var oScript=document.createElement("script");
   oScript.setAttribute("type","text/javascript");
   oScript.setAttribute("language","javascript");
-  oScript.setAttribute("src","/js/src/snowfall.jquery.min.js");
+  oScript.setAttribute("src","/js/snowfall.jquery.min.js");
   document.body.appendChild(oScript);
-  
+
   var getwidth = window.localStorage.getItem("historywidth");
   var getheight = window.localStorage.getItem("historyheight");
   if (getwidth != null && getheight != null) {
@@ -389,7 +389,7 @@ function getdata(el, id) {
         return;
       }
     }
-    
+
     if (talkcon == '爱心') {
       chuncaiSay('送你爱心雨~');
       clearInput();
