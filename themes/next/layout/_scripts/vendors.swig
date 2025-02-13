@@ -11,7 +11,7 @@
 {%- endif %}
 
 {%- if theme.mediumzoom %}
-  {%- set js_vendors = js_vendors | attr('mediumzoom', '//cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js') %}
+  {%- set js_vendors = js_vendors | attr('mediumzoom', 'medium-zoom.min.js') %}
 {%- endif %}
 
 {%- if theme.lazyload %}
@@ -28,7 +28,7 @@
 {%- endif %}
 
 {%- if theme.weichuncai %}
-  {%- set js_vendors = js_vendors | attr('jquery', '//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js') %}
+  {%- set js_vendors = js_vendors | attr('jquery', 'jquery.min.js') %}
   {%- set js_vendors = js_vendors | attr('weichuncai', 'weichuncai/weichuncai.js?v=1.0.1') %}
 {%- endif %}
 
