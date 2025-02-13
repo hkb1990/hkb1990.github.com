@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>http://hkb1990.com/2017/03/07/add-https-for-duoshuo/</loc>
+    <loc>http://hkb1990.com/2017/02/09/My-New-Post/</loc>
     
     <lastmod>2019-08-13</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>http://hkb1990.com/2017/02/09/My-New-Post/</loc>
+    <loc>http://hkb1990.com/2017/03/07/add-https-for-duoshuo/</loc>
     
     <lastmod>2019-08-13</lastmod>
     
@@ -162,6 +162,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>http://hkb1990.com/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>http://hkb1990.com/tags/https/</loc>
@@ -185,13 +192,6 @@
   </url>
   
   <url>
-    <loc>http://hkb1990.com/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2025-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://hkb1990.com/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -200,20 +200,6 @@
   
   <url>
     <loc>http://hkb1990.com/tags/Bash/</loc>
-    <lastmod>2025-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://hkb1990.com/tags/Go/</loc>
-    <lastmod>2025-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://hkb1990.com/tags/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -235,6 +221,20 @@
   
   <url>
     <loc>http://hkb1990.com/tags/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://hkb1990.com/tags/Go/</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://hkb1990.com/tags/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -285,14 +285,14 @@
 
   
   <url>
-    <loc>http://hkb1990.com/categories/%E5%88%86%E4%BA%AB/</loc>
+    <loc>http://hkb1990.com/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://hkb1990.com/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>http://hkb1990.com/categories/%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -306,14 +306,14 @@
   </url>
   
   <url>
-    <loc>http://hkb1990.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>http://hkb1990.com/categories/%E8%8A%82%E6%97%A5/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://hkb1990.com/categories/%E8%8A%82%E6%97%A5/</loc>
+    <loc>http://hkb1990.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
