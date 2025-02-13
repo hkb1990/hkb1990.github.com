@@ -1,15 +1,13 @@
 {% if page.path and page.path.indexOf('show-love') > -1 %}
 <script type="text/javascript">
 (function() {
-  console.log('body-end.swig loaded');
   function initLovePage() {
-    console.log('initLovePage called');
     loadDependencies();
   }
 
   function loadDependencies() {
     // 首先加载 jQuery
-    loadScript('//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js', function() {
+    loadScript('/lib/jquery.min.js', function() {
       // 确保 jQuery 加载完成后再加载 garden.js
       loadScript('/js/garden.js', function() {
         // 等待 garden.js 加载完成后再加载并执行 lovefunc.js
@@ -17,7 +15,6 @@
           // 确保所有依赖都加载完成后再初始化
           setTimeout(function() {
             if (typeof Garden !== 'undefined') {
-              console.log('Garden loaded successfully');
               startLove();
             } else {
               console.error('Garden still not defined');
@@ -29,7 +26,6 @@
   }
 
   function loadScript(url, callback) {
-    console.log('Loading script:', url);
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = url;
@@ -40,8 +36,6 @@
   var heartInterval; // 存储定时器引用
 
   function startLove() {
-    console.log('startLove called');
-    
     // 计算并定义全局变量
     window.offsetX = $(".post-body").width() / 2 + 20;
     window.offsetY = $(".post-body").height() / 2 - 55;
