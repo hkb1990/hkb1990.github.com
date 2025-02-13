@@ -61,6 +61,8 @@
     (function() {
       var hm = document.createElement("script");
       hm.src = "https://hm.baidu.com/hm.js?2d278baf7586f927bd1425084cbaed24";
+      // 添加 crossorigin 属性
+      hm.setAttribute('crossorigin', 'anonymous');
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
