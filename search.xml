@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>熟悉Hexo功能</title>
-    <url>/2017/02/09/My-New-Post/</url>
-    <content><![CDATA[<h1 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h1><p>熟悉Hexo写作的过程以及Markdown语法。</p>
-<h2 id="Hexo功能测试"><a href="#Hexo功能测试" class="headerlink" title="Hexo功能测试"></a>Hexo功能测试</h2><h3 id="阅读全文"><a href="#阅读全文" class="headerlink" title="阅读全文"></a>阅读全文</h3><span id="more"></span>
-<p>其实没什么东西~<br>文章插入<code>&lt;!--more--&gt;</code>就可以在主页隐藏下面的内容</p>
-<h3 id="文章导航"><a href="#文章导航" class="headerlink" title="文章导航"></a>文章导航</h3><p>查看左侧文章目录</p>
-<h4 id="多级目录"><a href="#多级目录" class="headerlink" title="多级目录"></a>多级目录</h4><h5 id="最多多少级"><a href="#最多多少级" class="headerlink" title="最多多少级"></a>最多多少级</h5><h6 id="测试一下"><a href="#测试一下" class="headerlink" title="测试一下"></a>测试一下</h6><p>####### 测试一下  这里就没有了<br>应该和Markdown语法相关</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>为多说增加https支持</title>
     <url>/2017/03/07/add-https-for-duoshuo/</url>
     <content><![CDATA[<p>给全站弄完https，发现打开带评论的文章小绿锁就会消失，打开浏览器的开发者工具一看，主要是多说的头像，以及表情全部使用的是http链接。<br>去<a href="https://dev.duoshuo.com/threads/541d4e8cf220120330054749">多说官方论坛</a>，快三年了还没解决。<br>不过解决方法还是有的，</p>
@@ -35,36 +19,13 @@
       </tags>
   </entry>
   <entry>
-    <title>为网站添加https支持</title>
-    <url>/2017/03/07/add-https/</url>
-    <content><![CDATA[<p>从上次Github被墙后，不知道怎么回事，用Chrome浏览器打开主页会自动启用https连接,然后提示证书错误。<br>于是就打算找解决方法，参考<a href="https://zhuanlan.zhihu.com/p/22667528">https://zhuanlan.zhihu.com/p/22667528</a>，<br>决定用<a href="https://www.cloudflare.com/">Cloudflare</a>试试，但这个网站不知道怎么回事，时不时会访问不了。<br>但最终还是弄到了小绿锁，<br><img src="/images/screenshots/green_safe.png"><br>访问速度貌似是快了一点，具体效果还要观察几天，希望不会时不时被墙。</p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>https</tag>
-        <tag>分享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2017/02/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>
+    <title>熟悉Hexo功能</title>
+    <url>/2017/02/09/My-New-Post/</url>
+    <content><![CDATA[<h1 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h1><p>熟悉Hexo写作的过程以及Markdown语法。</p>
+<h2 id="Hexo功能测试"><a href="#Hexo功能测试" class="headerlink" title="Hexo功能测试"></a>Hexo功能测试</h2><h3 id="阅读全文"><a href="#阅读全文" class="headerlink" title="阅读全文"></a>阅读全文</h3><span id="more"></span>
+<p>其实没什么东西~<br>文章插入<code>&lt;!--more--&gt;</code>就可以在主页隐藏下面的内容</p>
+<h3 id="文章导航"><a href="#文章导航" class="headerlink" title="文章导航"></a>文章导航</h3><p>查看左侧文章目录</p>
+<h4 id="多级目录"><a href="#多级目录" class="headerlink" title="多级目录"></a>多级目录</h4><h5 id="最多多少级"><a href="#最多多少级" class="headerlink" title="最多多少级"></a>最多多少级</h5><h6 id="测试一下"><a href="#测试一下" class="headerlink" title="测试一下"></a>测试一下</h6><p>####### 测试一下  这里就没有了<br>应该和Markdown语法相关</p>
 ]]></content>
       <categories>
         <category>测试</category>
@@ -119,6 +80,19 @@
       </tags>
   </entry>
   <entry>
+    <title>为网站添加https支持</title>
+    <url>/2017/03/07/add-https/</url>
+    <content><![CDATA[<p>从上次Github被墙后，不知道怎么回事，用Chrome浏览器打开主页会自动启用https连接,然后提示证书错误。<br>于是就打算找解决方法，参考<a href="https://zhuanlan.zhihu.com/p/22667528">https://zhuanlan.zhihu.com/p/22667528</a>，<br>决定用<a href="https://www.cloudflare.com/">Cloudflare</a>试试，但这个网站不知道怎么回事，时不时会访问不了。<br>但最终还是弄到了小绿锁，<br><img src="/images/screenshots/green_safe.png"><br>访问速度貌似是快了一点，具体效果还要观察几天，希望不会时不时被墙。</p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>https</tag>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Bash导出指定表</title>
     <url>/2017/02/23/dump-db/</url>
     <content><![CDATA[<p>刚学bash练手, 用来备份指定表</p>
@@ -133,6 +107,50 @@
       <tags>
         <tag>工具</tag>
         <tag>Bash</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Go中Json解析遇到的问题</title>
+    <url>/2017/03/07/go-json-unmarshal/</url>
+    <content><![CDATA[<p>最近用到Go解析Json字符串，本来没仔细看，结果定义结构体的时候忽略了成员名的大小写问题，导致变量赋值始终不成功。折腾了一会，写个测试程序看看Json转化的一些规则。</p>
+<span id="more"></span>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">&quot;encoding/json&quot;</span></span><br><span class="line">	<span class="string">&quot;fmt&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> Test1 <span class="keyword">struct</span> &#123;</span><br><span class="line">	Va1 <span class="type">int</span></span><br><span class="line">	Va2 <span class="type">int</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> Test2 <span class="keyword">struct</span> &#123;</span><br><span class="line">	va1 <span class="type">int</span></span><br><span class="line">	va2 <span class="type">int</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> Test3 <span class="keyword">struct</span> &#123;</span><br><span class="line">	Va1 <span class="type">int</span> <span class="string">`json:&quot;te1&quot;`</span></span><br><span class="line">	Va2 <span class="type">int</span> <span class="string">`json:&quot;va1&quot;`</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	<span class="keyword">var</span> test1 Test1</span><br><span class="line">	err := json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;Va1&quot;:1,&quot;Va2&quot;:2&#125;`</span>), &amp;test1)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test1: %+v\n&quot;</span>, test1)</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 大小写不敏感</span></span><br><span class="line">	<span class="keyword">var</span> test11 Test1</span><br><span class="line">	err = json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;va1&quot;:1,&quot;vA2&quot;:2&#125;`</span>), &amp;test11)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test11: %+v\n&quot;</span>, test11)</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 如果字段重复则后面的会覆盖前面的</span></span><br><span class="line">	<span class="keyword">var</span> test12 Test1</span><br><span class="line">	err = json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;va1&quot;:1,&quot;vA2&quot;:2,&quot;Va2&quot;:3&#125;`</span>), &amp;test12)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test13: %+v\n&quot;</span>, test12)</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 结构体里面的成员名如果是小写,是无法赋值成功的</span></span><br><span class="line">	<span class="comment">// 这与Go的变量命名规则有关,首字母大写的是可以导出的</span></span><br><span class="line">	<span class="keyword">var</span> test2 Test2</span><br><span class="line">	err = json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;va1&quot;:1,&quot;va2&quot;:2&#125;`</span>), &amp;test2)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test2: %+v\n&quot;</span>, test2)</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 如果设置了标签,则以标签为准,忽略成员名</span></span><br><span class="line">	<span class="keyword">var</span> test3 Test3</span><br><span class="line">	err = json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;va1&quot;:1,&quot;te1&quot;:2&#125;`</span>), &amp;test3)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test3: %+v\n&quot;</span>, test3)</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 如果设置了标签,则以标签为准,忽略成员名</span></span><br><span class="line">	<span class="keyword">var</span> test31 Test3</span><br><span class="line">	err = json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;te1&quot;:2,&quot;va1&quot;:1,&quot;va2&quot;:3&#125;`</span>), &amp;test31)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test31: %+v\n&quot;</span>, test31)</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>最终结果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">test1: &#123;Va1:1 Va2:2&#125;</span><br><span class="line">test11: &#123;Va1:1 Va2:2&#125;</span><br><span class="line">test13: &#123;Va1:1 Va2:3&#125;</span><br><span class="line">test2: &#123;va1:0 va2:0&#125;</span><br><span class="line">test3: &#123;Va1:2 Va2:1&#125;</span><br><span class="line">test31: &#123;Va1:2 Va2:1&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Go</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2017/02/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
       </tags>
   </entry>
   <entry>
@@ -162,24 +180,6 @@
       <tags>
         <tag>工具</tag>
         <tag>图片压缩</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Go中Json解析遇到的问题</title>
-    <url>/2017/03/07/go-json-unmarshal/</url>
-    <content><![CDATA[<p>最近用到Go解析Json字符串，本来没仔细看，结果定义结构体的时候忽略了成员名的大小写问题，导致变量赋值始终不成功。折腾了一会，写个测试程序看看Json转化的一些规则。</p>
-<span id="more"></span>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">&quot;encoding/json&quot;</span></span><br><span class="line">	<span class="string">&quot;fmt&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> Test1 <span class="keyword">struct</span> &#123;</span><br><span class="line">	Va1 <span class="type">int</span></span><br><span class="line">	Va2 <span class="type">int</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> Test2 <span class="keyword">struct</span> &#123;</span><br><span class="line">	va1 <span class="type">int</span></span><br><span class="line">	va2 <span class="type">int</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> Test3 <span class="keyword">struct</span> &#123;</span><br><span class="line">	Va1 <span class="type">int</span> <span class="string">`json:&quot;te1&quot;`</span></span><br><span class="line">	Va2 <span class="type">int</span> <span class="string">`json:&quot;va1&quot;`</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	<span class="keyword">var</span> test1 Test1</span><br><span class="line">	err := json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;Va1&quot;:1,&quot;Va2&quot;:2&#125;`</span>), &amp;test1)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test1: %+v\n&quot;</span>, test1)</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 大小写不敏感</span></span><br><span class="line">	<span class="keyword">var</span> test11 Test1</span><br><span class="line">	err = json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;va1&quot;:1,&quot;vA2&quot;:2&#125;`</span>), &amp;test11)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test11: %+v\n&quot;</span>, test11)</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 如果字段重复则后面的会覆盖前面的</span></span><br><span class="line">	<span class="keyword">var</span> test12 Test1</span><br><span class="line">	err = json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;va1&quot;:1,&quot;vA2&quot;:2,&quot;Va2&quot;:3&#125;`</span>), &amp;test12)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test13: %+v\n&quot;</span>, test12)</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 结构体里面的成员名如果是小写,是无法赋值成功的</span></span><br><span class="line">	<span class="comment">// 这与Go的变量命名规则有关,首字母大写的是可以导出的</span></span><br><span class="line">	<span class="keyword">var</span> test2 Test2</span><br><span class="line">	err = json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;va1&quot;:1,&quot;va2&quot;:2&#125;`</span>), &amp;test2)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test2: %+v\n&quot;</span>, test2)</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 如果设置了标签,则以标签为准,忽略成员名</span></span><br><span class="line">	<span class="keyword">var</span> test3 Test3</span><br><span class="line">	err = json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;va1&quot;:1,&quot;te1&quot;:2&#125;`</span>), &amp;test3)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test3: %+v\n&quot;</span>, test3)</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 如果设置了标签,则以标签为准,忽略成员名</span></span><br><span class="line">	<span class="keyword">var</span> test31 Test3</span><br><span class="line">	err = json.Unmarshal([]<span class="type">byte</span>(<span class="string">`&#123;&quot;te1&quot;:2,&quot;va1&quot;:1,&quot;va2&quot;:3&#125;`</span>), &amp;test31)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		fmt.Println(err)</span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Printf(<span class="string">&quot;test31: %+v\n&quot;</span>, test31)</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>最终结果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">test1: &#123;Va1:1 Va2:2&#125;</span><br><span class="line">test11: &#123;Va1:1 Va2:2&#125;</span><br><span class="line">test13: &#123;Va1:1 Va2:3&#125;</span><br><span class="line">test2: &#123;va1:0 va2:0&#125;</span><br><span class="line">test3: &#123;Va1:2 Va2:1&#125;</span><br><span class="line">test31: &#123;Va1:2 Va2:1&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Go</tag>
-        <tag>学习</tag>
       </tags>
   </entry>
   <entry>
@@ -257,20 +257,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用畅言云评评论插件</title>
-    <url>/2025/02/13/use-changyan/</url>
-    <content><![CDATA[<p>之前用的LiveRe，但是近期发现国内登录不了管理后台，而且评论底部自带广告。之前畅言需要备案，现在也取消了这个要求，lite版还免广告，Next主题也已经集成，替换十分轻松。</p>
-]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>工具</tag>
-        <tag>畅言</tag>
-        <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>字典树的Go语言实现</title>
     <url>/2017/02/23/trie-tree/</url>
     <content><![CDATA[<p>刚学Go语言练手,用于敏感词匹配<br>字典树的Go语言实现</p>
@@ -290,21 +276,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用网易云跟帖代替多说</title>
-    <url>/2017/03/23/use-gentie/</url>
-    <content><![CDATA[<p>三月二十一日，<a href="http://dev.duoshuo.com/threads/58d10f50e9a8cb4433fd5c5d">多说官网</a>突然说关闭多说业务，没办法我们只能找替代的产品了，尝试使用<a href="https://gentie.163.com/index.html">网易云跟帖</a>，还好Next主题集成了云跟帖，只要在配置文件中将Product Key填一下就好了。<br>但是初步测试了下，发现几个问题：<br>1、评论昵称不知道在哪里修改；<br>2、评论不显示，即使关闭了审核也没有，后台也看不到评论。</p>
-<p>尝试使用<a href="http://www.uyan.cc/">友言</a>，然而友言并不支持https。<br>尝试使用畅言，但是需要网站备案。</p>
-<p>六小时后，跟帖终于刷出来了~~  T_T</p>
-]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>工具</tag>
-        <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用LiveRe代替网易云跟帖</title>
     <url>/2017/07/10/use-livere/</url>
     <content><![CDATA[<p>网易云跟贴停止服务公告</p>
@@ -320,6 +291,35 @@
       <tags>
         <tag>工具</tag>
         <tag>评论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用网易云跟帖代替多说</title>
+    <url>/2017/03/23/use-gentie/</url>
+    <content><![CDATA[<p>三月二十一日，<a href="http://dev.duoshuo.com/threads/58d10f50e9a8cb4433fd5c5d">多说官网</a>突然说关闭多说业务，没办法我们只能找替代的产品了，尝试使用<a href="https://gentie.163.com/index.html">网易云跟帖</a>，还好Next主题集成了云跟帖，只要在配置文件中将Product Key填一下就好了。<br>但是初步测试了下，发现几个问题：<br>1、评论昵称不知道在哪里修改；<br>2、评论不显示，即使关闭了审核也没有，后台也看不到评论。</p>
+<p>尝试使用<a href="http://www.uyan.cc/">友言</a>，然而友言并不支持https。<br>尝试使用畅言，但是需要网站备案。</p>
+<p>六小时后，跟帖终于刷出来了~~  T_T</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>评论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用畅言云评评论插件</title>
+    <url>/2025/02/13/use-changyan/</url>
+    <content><![CDATA[<p>之前用的LiveRe，但是近期发现国内登录不了管理后台，而且评论底部自带广告。之前畅言需要备案，现在也取消了这个要求，lite版还免广告，Next主题也已经集成，替换十分轻松。</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>评论</tag>
+        <tag>畅言</tag>
       </tags>
   </entry>
 </search>
