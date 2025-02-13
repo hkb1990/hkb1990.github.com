@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>熟悉Hexo功能</title>
-    <url>/2017/02/09/My-New-Post/</url>
-    <content><![CDATA[<h1 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h1><p>熟悉Hexo写作的过程以及Markdown语法。</p>
-<h2 id="Hexo功能测试"><a href="#Hexo功能测试" class="headerlink" title="Hexo功能测试"></a>Hexo功能测试</h2><h3 id="阅读全文"><a href="#阅读全文" class="headerlink" title="阅读全文"></a>阅读全文</h3><span id="more"></span>
-<p>其实没什么东西~<br>文章插入<code>&lt;!--more--&gt;</code>就可以在主页隐藏下面的内容</p>
-<h3 id="文章导航"><a href="#文章导航" class="headerlink" title="文章导航"></a>文章导航</h3><p>查看左侧文章目录</p>
-<h4 id="多级目录"><a href="#多级目录" class="headerlink" title="多级目录"></a>多级目录</h4><h5 id="最多多少级"><a href="#最多多少级" class="headerlink" title="最多多少级"></a>最多多少级</h5><h6 id="测试一下"><a href="#测试一下" class="headerlink" title="测试一下"></a>测试一下</h6><p>####### 测试一下  这里就没有了<br>应该和Markdown语法相关</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>为多说增加https支持</title>
     <url>/2017/03/07/add-https-for-duoshuo/</url>
     <content><![CDATA[<p>给全站弄完https，发现打开带评论的文章小绿锁就会消失，打开浏览器的开发者工具一看，主要是多说的头像，以及表情全部使用的是http链接。<br>去<a href="https://dev.duoshuo.com/threads/541d4e8cf220120330054749">多说官方论坛</a>，快三年了还没解决。<br>不过解决方法还是有的，</p>
@@ -32,6 +16,22 @@
       <tags>
         <tag>https</tag>
         <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>熟悉Hexo功能</title>
+    <url>/2017/02/09/My-New-Post/</url>
+    <content><![CDATA[<h1 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h1><p>熟悉Hexo写作的过程以及Markdown语法。</p>
+<h2 id="Hexo功能测试"><a href="#Hexo功能测试" class="headerlink" title="Hexo功能测试"></a>Hexo功能测试</h2><h3 id="阅读全文"><a href="#阅读全文" class="headerlink" title="阅读全文"></a>阅读全文</h3><span id="more"></span>
+<p>其实没什么东西~<br>文章插入<code>&lt;!--more--&gt;</code>就可以在主页隐藏下面的内容</p>
+<h3 id="文章导航"><a href="#文章导航" class="headerlink" title="文章导航"></a>文章导航</h3><p>查看左侧文章目录</p>
+<h4 id="多级目录"><a href="#多级目录" class="headerlink" title="多级目录"></a>多级目录</h4><h5 id="最多多少级"><a href="#最多多少级" class="headerlink" title="最多多少级"></a>最多多少级</h5><h6 id="测试一下"><a href="#测试一下" class="headerlink" title="测试一下"></a>测试一下</h6><p>####### 测试一下  这里就没有了<br>应该和Markdown语法相关</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
       </tags>
   </entry>
   <entry>
@@ -257,39 +257,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用网易云跟帖代替多说</title>
-    <url>/2017/03/23/use-gentie/</url>
-    <content><![CDATA[<p>三月二十一日，<a href="http://dev.duoshuo.com/threads/58d10f50e9a8cb4433fd5c5d">多说官网</a>突然说关闭多说业务，没办法我们只能找替代的产品了，尝试使用<a href="https://gentie.163.com/index.html">网易云跟帖</a>，还好Next主题集成了云跟帖，只要在配置文件中将Product Key填一下就好了。<br>但是初步测试了下，发现几个问题：<br>1、评论昵称不知道在哪里修改；<br>2、评论不显示，即使关闭了审核也没有，后台也看不到评论。</p>
-<p>尝试使用<a href="http://www.uyan.cc/">友言</a>，然而友言并不支持https。<br>尝试使用畅言，但是需要网站备案。</p>
-<p>六小时后，跟帖终于刷出来了~~  T_T</p>
-]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>工具</tag>
-        <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用LiveRe代替网易云跟帖</title>
-    <url>/2017/07/10/use-livere/</url>
-    <content><![CDATA[<p>网易云跟贴停止服务公告</p>
-<p>亲爱的朋友们：</p>
-<p>因公司业务发展需要，我们不得不遗憾地通知大家，云跟贴产品将于2017年8月1日停止服务。在此之前可以通过后台的数据导出功能导出自己站点的跟贴数据。感谢大家一直以来对云跟贴的支持与厚爱，对于此次产品关停给您带来的不便我们深表歉意，希望在网易其他产品与业务上，我们能继续为您服务！</p>
-<p>网易云跟贴</p>
-<p>2017年7月6日</p>
-<p>没办法,只能用LiveRe了</p>
-]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>工具</tag>
-        <tag>评论</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>字典树的Go语言实现</title>
     <url>/2017/02/23/trie-tree/</url>
     <content><![CDATA[<p>刚学Go语言练手,用于敏感词匹配<br>字典树的Go语言实现</p>
@@ -318,8 +285,41 @@
       </categories>
       <tags>
         <tag>工具</tag>
-        <tag>评论</tag>
         <tag>畅言</tag>
+        <tag>评论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用LiveRe代替网易云跟帖</title>
+    <url>/2017/07/10/use-livere/</url>
+    <content><![CDATA[<p>网易云跟贴停止服务公告</p>
+<p>亲爱的朋友们：</p>
+<p>因公司业务发展需要，我们不得不遗憾地通知大家，云跟贴产品将于2017年8月1日停止服务。在此之前可以通过后台的数据导出功能导出自己站点的跟贴数据。感谢大家一直以来对云跟贴的支持与厚爱，对于此次产品关停给您带来的不便我们深表歉意，希望在网易其他产品与业务上，我们能继续为您服务！</p>
+<p>网易云跟贴</p>
+<p>2017年7月6日</p>
+<p>没办法,只能用LiveRe了</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>评论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用网易云跟帖代替多说</title>
+    <url>/2017/03/23/use-gentie/</url>
+    <content><![CDATA[<p>三月二十一日，<a href="http://dev.duoshuo.com/threads/58d10f50e9a8cb4433fd5c5d">多说官网</a>突然说关闭多说业务，没办法我们只能找替代的产品了，尝试使用<a href="https://gentie.163.com/index.html">网易云跟帖</a>，还好Next主题集成了云跟帖，只要在配置文件中将Product Key填一下就好了。<br>但是初步测试了下，发现几个问题：<br>1、评论昵称不知道在哪里修改；<br>2、评论不显示，即使关闭了审核也没有，后台也看不到评论。</p>
+<p>尝试使用<a href="http://www.uyan.cc/">友言</a>，然而友言并不支持https。<br>尝试使用畅言，但是需要网站备案。</p>
+<p>六小时后，跟帖终于刷出来了~~  T_T</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>评论</tag>
       </tags>
   </entry>
 </search>
