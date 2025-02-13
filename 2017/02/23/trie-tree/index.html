@@ -328,7 +328,7 @@
           
     
   <div class="comments">
-    <div id="SOHUCS" sid="2025/02/13/use-changyan/"></div>
+    <div id="SOHUCS" sid="2019/09/30/show-love/"></div>
   </div>
   
 
@@ -528,31 +528,18 @@
   
 
   <script>
-  (function() {
-    function loadChangyan() {
-      var appid = 'cyxKtG12W';
-      var conf = 'prod_d80c2165104dec648f8a6bbfc95f7bf0';
-
-      var script = document.createElement('script');
-      script.id = 'changyan_mobile_js';
-      script.type = 'text/javascript';
-      script.charset = 'utf-8';
-      script.async = true;
-      script.src = 'https://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf;
-      script.crossOrigin = 'anonymous';
-
-      script.onload = function() {
-        console.log('畅言评论加载完成');
-      };
-
-      document.head.appendChild(script);
+  NexT.utils.loadComments(document.querySelector('#SOHUCS'), () => {
+    var appid = 'cyxKtG12W';
+    var conf = 'prod_d80c2165104dec648f8a6bbfc95f7bf0';
+    var width = window.innerWidth || document.documentElement.clientWidth;
+    if (width < 960) {
+      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
+    } else {
+      var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})});
     }
-
-    // 使用 NexT 的加载评论工具
-    NexT.utils.loadComments(document.querySelector('#SOHUCS'), loadChangyan);
-  })();
+  });
   </script>
-  <script src="https://cy-cdn.kuaizhan.com/upload/plugins/plugins.count.js" async crossorigin="anonymous"></script>
+  <script src="https://changyan.sohu.com/upload/plugins/plugins.count.js"></script>
 
 
 </body>
