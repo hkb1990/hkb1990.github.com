@@ -12,7 +12,7 @@ hexo.extend.filter.register('theme_inject', injects => {
 
   injects.comment.raw('changyan', `
   <div class="comments">
-    <div id="SOHUCS" sid="{{ url_for(post.path) }}"></div>
+    <div id="SOHUCS" sid="{{ page.path }}"></div>
   </div>
   `, {}, {cache: true});
 
@@ -35,7 +35,7 @@ hexo.extend.filter.register('theme_inject', injects => {
       </a>
     {% else %}
       <a title="changyan" href="{{ url_for(post.path) }}#SOHUCS" itemprop="discussionUrl">
-        <span id="url::{{ post.permalink }}" class="cy_cmt_count" data-xid="{{ post.path }}" itemprop="commentCount"></span>
+        <span id="sourceId::{{ post.path }}" class="cy_cmt_count" data-xid="{{ post.path }}" itemprop="commentCount"></span>
       </a>
     {% endif %}
   </span>
