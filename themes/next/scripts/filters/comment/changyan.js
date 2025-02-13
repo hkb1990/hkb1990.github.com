@@ -14,7 +14,7 @@ hexo.extend.filter.register('theme_inject', injects => {
   <div class="comments">
     <div id="SOHUCS" sid="{{ page.path }}"></div>
   </div>
-  `, {}, {cache: true});
+  `, {}, {cache: false});
 
   injects.bodyEnd.file('changyan', path.join(hexo.theme_dir, 'layout/_third-party/comments/changyan.swig'));
 
