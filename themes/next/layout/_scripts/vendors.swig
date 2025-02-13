@@ -28,6 +28,7 @@
 {%- endif %}
 
 {%- if theme.weichuncai %}
+  {%- set js_vendors = js_vendors | attr('jquery', '//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js') %}
   {%- set js_vendors = js_vendors | attr('weichuncai', 'weichuncai/weichuncai.js?v=1.0.1') %}
 {%- endif %}
 
