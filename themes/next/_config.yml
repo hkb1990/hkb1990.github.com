@@ -603,8 +603,8 @@ disqusjs:
 # Changyan
 changyan:
   enable: true
-  appid: cyxKthYMH
-  appkey: ef04d1f08a3607e7c7e1538e61ae1c0b
+  appid: cyxKtG12W
+  appkey: prod_d80c2165104dec648f8a6bbfc95f7bf0
   #post_meta_order: 0
 
 # Valine

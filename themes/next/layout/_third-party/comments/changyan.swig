@@ -13,5 +13,5 @@
     }
   });
   </script>
-  <script src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
+  <script src="https://changyan.sohu.com/upload/plugins/plugins.count.js"></script>
 {%- endif %}
